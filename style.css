@@ -21,13 +21,32 @@ html {
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-     background-color: var(--secondary-color);
-     margin: 5.5rem;
-     box-shadow: 0 1rem 3rem var(--grey-color);
+  background-color: var(--secondary-color);
+  margin: 5.5rem;
+  box-shadow: 0 1rem 3rem var(--grey-color);
+}
+
+.header {
+  width: 100%;
+  height: calc(100vh - 7rem);
+
+}
+
+
+.header-text {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+}
+
+.heading {
+    font-size: 8rem;
+    color: var(--white-color);
 }
