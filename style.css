@@ -362,6 +362,40 @@ html {
 /* Contact */
 .contact {
   padding: 15rem 0 20rem;
+  text-align: center;
+  background: url(images/forest.jpg) center no-repeat;
+  background-color: cover;
+}
+
+.contact-heading {
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--white-color);
+  text-shadow: 0 1rem 2rem #000;
+  margin-bottom: 8rem;
+}
+
+.contact-form {
+  width: 70rem;
+  height: 50rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  margin: auto;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 3rem #000;
+  padding: 5rem;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-groups {
+  width: 100%;
 }
 
 
