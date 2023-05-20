@@ -15,11 +15,11 @@ html {
 }
 
 :root {
-  --primary-color: #2b81e4;
-  --secondary-color: #eee;
-  --white-color: #fff;
+  --primary-color: #56afa4;
+  --secondary-color: rgb(238, 238, 238);
+  --white-color: rgb(255, 255, 255);
   --grey-color: #555;
-  --light-grey-color: #777;
+  --light-grey-color: rgb(119, 119, 119);
 }
 
 .center {
@@ -317,7 +317,7 @@ html {
 }
 
 .story-bg {
-  background-color:rgba(238, 238, 238, .85);
+  background-color: rgba(238, 238, 238, 0.85);
   padding: 5rem;
   margin: 5rem;
   width: 70%;
@@ -358,3 +358,11 @@ html {
   margin-left: 1rem;
 }
 /* End of stories */
+
+/* Contact */
+.contact {
+  padding: 15rem 0 20rem;
+}
+
+
+/* End of contact */
