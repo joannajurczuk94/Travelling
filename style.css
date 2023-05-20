@@ -37,6 +37,35 @@ html {
 
 /* End of common styles */
 
+/* Navbar */
+.navbar-icon {
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.open-navbar-icon {
+  position: fixed;
+  top: 6.5rem;
+  left: 6.5rem;
+  z-index: 200;
+}
+.navbar-icon .line {
+  height: 0.2rem;
+  width: 3.5rem;
+  background-color: var(--light-grey-color);
+}
+
+
+.navbar-wrapper {
+  display: none;
+}
+
+/* End of navbar */
+
+
 /* Header */
 
 .header {
@@ -289,7 +318,6 @@ html {
 }
 /* End of Popular tours */
 
-
 .stories {
   padding: 10rem 0;
   position: relative;
@@ -335,7 +363,6 @@ html {
   border-radius: 50%;
   object-fit: cover;
   margin-right: 5rem;
-
 }
 
 .story-text {
@@ -366,7 +393,7 @@ html {
   background: url(images/contact.jpg) center no-repeat;
   background-size: cover;
   animation: contact-bg 20s infinite;
-    background-blend-mode: overlay;
+  background-blend-mode: overlay;
 }
 
 .contact-heading {
@@ -415,24 +442,24 @@ html {
   border: 0.1rem solid var(--secondary-color);
   font-size: 1.4rem;
   color: var(--light-grey-color);
-  letter-spacing: .1rem;
-  border-radius: .5rem;
-  transition: border .3s;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  transition: border 0.3s;
 }
 
 .input-group input:focus,
 .input-group textarea:focus {
-  border: .1rem solid #ccc;
+  border: 0.1rem solid #ccc;
 }
 
 .input-group label {
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: var(--grey-color);
   position: absolute;
-  top:1rem;
+  top: 1rem;
   left: 1rem;
 }
 
@@ -440,11 +467,11 @@ html {
   width: 100%;
   padding: 1rem;
   font-size: 1.6rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   margin-top: 1rem;
   background-color: var(--light-grey-color);
-  color:var(--white-color);
-  border-radius: .5rem;
+  color: var(--white-color);
+  border-radius: 0.5rem;
   border: none;
   cursor: pointer;
   transition: background-color 0.4s;
@@ -478,3 +505,39 @@ html {
 }
 
 /* End of contact */
+
+/* footer */
+.footer {
+  background-color: var(--grey-color);
+  padding: 4rem 0 2rem 0;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  font-size: 2rem;
+  color: var(--white-color);
+  margin: 0 2rem;
+  background-color: var(--grey-color);
+  padding: 0.3rem 3rem;
+  letter-spacing: 0.3rem;
+  transition: all 0.2s;
+}
+
+.footer-link:hover {
+  transform: rotate(-10deg);
+  box-shadow: 0 2rem 3rem #000;
+}
+
+.footer-paragraph {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  letter-spacing: .2rem;
+  margin-top: 5rem;
+
+}
+/* End of footer */
